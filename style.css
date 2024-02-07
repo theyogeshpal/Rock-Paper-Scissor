@@ -1,0 +1,99 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    background-color: aqua;
+}
+
+.heading {
+     text-align: center;
+     margin: 2rem 0 2rem 0;
+     font-size: 1rem;
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+img {
+    height: 7rem;
+    border-radius: 50%;
+}
+
+img:hover {
+    opacity: 0.5;
+    height: 6. 5rem;
+    cursor: pointer;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 2rem 0 2rem 0;
+}
+
+h3 {
+    height: 2rem;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.user {
+    font-size: 2rem;
+}
+
+.score {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    
+    font-size: 1.5rem;
+    background-color: black;
+    color: white;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.btni {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.end {
+    position: absolute;
+    bottom: 0px;
+    padding-right: 1rem;
+    width: 98.75vw;
+    font-size: 1rem;
+    text-align: right;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    height: 2rem;
+    line-height: 2rem;
+}
+
+span {
+    color: red;
+    background-color: black;
+}
+
+.user-choice{
+    text-align: center;
+    justify-content: center;
+}
